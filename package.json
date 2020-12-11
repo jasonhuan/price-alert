@@ -1,0 +1,19 @@
+{
+  "name": "eth-price-server",
+  "version": "1.0.0",
+  "description": "A twilio server that pushes the current price of Ethereum",
+  "main": "src/send_sms.js",
+  "dependencies": {
+    "docker": "^1.0.0",
+    "dotenv": "^8.2.0",
+    "path": "^0.12.7",
+    "request-promise": "^4.2.6",
+    "twilio": "^3.52.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/send_sms.js"
+  },
+  "author": "Jason Huan",
+  "license": "MIT"
+}
